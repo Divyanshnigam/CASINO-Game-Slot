@@ -5,7 +5,7 @@ let value3 = document.getElementById('value3')
 let inpSpeed = document.getElementById('inpSpeed')
 let spinbtn = document.getElementById('spinbtn')
 let stopbtn = document.getElementById('stopbtn')
-
+let refresh = document.getElementById('refresh')
 let values = [
     '🤍', '💜', '💛', '💖', '💚', '🖤', '🧡'
 ]
@@ -42,5 +42,9 @@ inpSpeed.onchange = function(ev) {
 
 stopbtn.onclick = function() {
     document.documentElement.style.setProperty('--speed', 0)
-    animationId = 0;
+    clearInterval(animationId)
+}
+
+refresh.onclick = function() {
+    window.location.reload();
 }

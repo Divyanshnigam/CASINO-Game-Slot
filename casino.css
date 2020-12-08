@@ -40,6 +40,15 @@ body {
     animation-duration: calc(1s / var(--speed));
 }
 
+.set {
+    font-size: 30pt;
+    height: 35pt;
+    width: 500pt;
+    margin-left: 30px;
+    font-weight: 1000;
+    font-stretch: expanded;
+}
+
 #spinbtn {
     font-size: 10pt;
     background-color: rgb(49, 6, 102);
@@ -52,6 +61,17 @@ body {
 }
 
 #stopbtn {
+    font-size: 10pt;
+    background-color: rgb(245, 3, 3);
+    height: 35pt;
+    width: 500pt;
+    margin-left: 30px;
+    font-size: 18pt;
+    font-weight: 1000;
+    font-stretch: expanded;
+}
+
+#refresh {
     font-size: 10pt;
     background-color: rgb(245, 3, 3);
     height: 35pt;
