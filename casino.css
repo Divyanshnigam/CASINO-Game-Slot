@@ -3,12 +3,12 @@
 }
 
 body {
-    background-color: rgb(78, 87, 2);
+    background-color: rgb(221, 245, 8);
 }
 
 .machine {
-    background-color: rgb(30, 3, 73);
-    border: solid rgb(136, 2, 2) 3px;
+    background-color: rgb(9, 8, 107);
+    border: solid rgb(54, 70, 3) 3px;
     height: 300px;
     width: 900px;
     margin: 50px;
@@ -21,7 +21,7 @@ body {
     width: 250px;
     margin: 20px;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.993);
+    background-color: rgba(5, 5, 5, 0.993);
     border: solid rgb(21, 1, 75) 5px;
     text-align: center;
     font-size: 80pt;
@@ -73,7 +73,7 @@ body {
 
 #refresh {
     font-size: 10pt;
-    background-color: rgb(245, 3, 3);
+    background-color: rgb(3, 233, 15);
     height: 35pt;
     width: 500pt;
     margin-left: 30px;
