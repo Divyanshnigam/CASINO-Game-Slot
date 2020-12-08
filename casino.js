@@ -41,5 +41,6 @@ inpSpeed.onchange = function(ev) {
 }
 
 stopbtn.onclick = function() {
-
+    document.documentElement.style.setProperty('--speed', 0)
+    animationId = 0;
 }
