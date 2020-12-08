@@ -33,8 +33,9 @@ inpSpeed.onchange = function(ev) {
 
     //document.documentElement => this is ":root of css"
 
-    document.documentElement.style.setProperty('--speed', ev.target.value)
+
     spinbtn.onclick = function() {
+        document.documentElement.style.setProperty('--speed', ev.target.value)
         updateAnimation(ev.target.value)
     }
 }
