@@ -3,12 +3,12 @@
 }
 
 body {
-    background-color: rgb(221, 245, 8);
+    background-color: rgb(192, 245, 20);
 }
 
 .machine {
-    background-color: rgb(9, 8, 107);
-    border: solid rgb(54, 70, 3) 3px;
+    background-color: rgb(36, 14, 136);
+    border: solid rgb(152, 138, 201) 5px;
     height: 300px;
     width: 900px;
     margin: 50px;
@@ -22,7 +22,7 @@ body {
     margin: 20px;
     overflow: hidden;
     background-color: rgba(5, 5, 5, 0.993);
-    border: solid rgb(21, 1, 75) 5px;
+    border: solid rgb(152, 138, 201) 5px;
     text-align: center;
     font-size: 80pt;
     line-height: 250px;
